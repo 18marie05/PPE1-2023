@@ -1,4 +1,16 @@
 # Journal de Marie
 ## Séance du 20 septembre
 
-on fait
+-
+-
+-
+-
+-
+-
+-
+
+
+
+
+
+## Séance du 27 septembre
