@@ -25,3 +25,4 @@ On utilise _git status_ pour savoir si le dépôt distant est à jour sur la mac
 On exécute à nouveau _git status_ : il faut procéder à un update
 Donc : git pull puis git status : le répertoire local est maintenant à jour
 _git log_ pour vérifier la date de la dernière modification : 2 octobre donc ok
+
