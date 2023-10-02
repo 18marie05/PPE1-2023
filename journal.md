@@ -21,4 +21,7 @@ Le chemin absolu part de la racine
 - ajout de la clé publique à GitHub (.pub)
 - dépôt du cours cloné
 - dépôt personnel cloné sur machine personnelle
-
+On utilise _git status_ pour savoir si le dépôt distant est à jour sur la machine : le dépôt semble à jour mais il ne l'est pas car il venait d'être modifié donc on utilise _git fetch_
+On exécute à nouveau _git status_ : il faut procéder à un update
+Donc : git pull puis git status : le répertoire local est maintenant à jour
+_git log_ pour vérifier la date de la dernière modification : 2 octobre donc ok
