@@ -31,3 +31,5 @@ d'erreur
 pour 
 exercice
 1a
+
+## Séance du 4 octobre
