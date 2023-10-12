@@ -51,7 +51,7 @@ essai avec fetch pour récupérer les changements effectués et copier/coller le
 Pipeline
 - communication entre console et fichiers
 - syntaxe du type : cat *.txt | grep université | wc > output.txt
--       permet d'envoyer tous les fichiers txt avec les lignes (wc) qui contiennent le mot université
+=> permet d'envoyer tous les fichiers txt avec les lignes (wc) qui contiennent le mot université
 -   -l à la fin de chaque commande pour lire la dernière colonne
 
 Scripts
