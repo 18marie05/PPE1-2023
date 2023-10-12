@@ -46,3 +46,15 @@ On passe à la question suivante : 2a ; pour retourner à la version du tag gi
 Récupérer les changements effectués avec git fetch ???
 comment les copier vers un autre fichier (à part à la main en passant par l’interface net) ??
 essai avec fetch pour récupérer les changements effectués et copier/coller les modifications de oups à la main vers journal de bord
+
+## Séance du 11 octobre
+Pipeline
+- communication entre console et fichiers
+- syntaxe du type : cat *.txt | grep université | wc > output.txt
+=> permet d'envoyer tous les fichiers txt avec les lignes (wc) qui contiennent le mot université
+-   -l à la fin de chaque commande pour lire la dernière colonne
+
+Scripts
+- au lieu d'écrire dans la console, on écrit les commandes dans un script
+- utilisation de variables
+- variables notées $1
