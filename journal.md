@@ -58,3 +58,31 @@ Scripts
 - au lieu d'écrire dans la console, on écrit les commandes dans un script
 - utilisation de variables
 - variables notées $1
+
+
+## Séance du 18 octobre
+Utilisation des variables dans les scripts dans les exercices : à refaire différemment -> on ajoute le nom de la variable dans la commande du terminal, pas directement dans le script
+(permet d'adapter sans modifier à l'intérieur du script à chaque fois)
+Commande pour rendre un fichier exécutable : chmod +x **AVANT** nom_fichier
+Instructions de contrôles possibles sur les chemins : vérification d'existence d'un fichier, dossier, si fichier est vide ou non (-s)
+
+Boucles : 
+- for ... in ... do ... done (_fonction range = seq_)
+- while ...; do...; done
+- if then else fi (_fi permet de cloturer la boucle if_)
+Pour utiliser un fichier dans un script, on l'écrit après le _done_
+
+**Partie projet + Lynx**
+=naviguer web à partir du terminal
+-> pour cliquer sur un lien
+-dump : recup contenu textuel
+-listonly vs -nolist (lien ou non)
+-I : indique si l'adresse du lien est toujours la même, sinon indique la nouvelle ; date ; type de contenu
+-w : ?
+-s : donne la structure html du lien avec balises (il faut donner l'adresse entière -> vérifier -I pour site bougé ou non)
+
+Liste de mots pour projet : 
+pas de mot polysémique 
+réflexion sur le choix du mot en cours (groupe)
+
+
