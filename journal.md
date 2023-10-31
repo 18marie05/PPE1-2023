@@ -102,3 +102,17 @@ fi
 echo "fin du programme"
 
 **MAIS erreur** : line 4: [: missing `]'
+
+## Séance du 25 octobre
+- correction des scripts vu la semaine précédente : /!\ espaces dans les crochets
+**Mini-projet individuel**
+- travail sur les arguments à donner en ligne de commande
+- utiliser un fichier dans une variable
+- utilisation de plusieurs commandes curl + grep dans définition des variables
+- \t pour avoir un fichier propre avec des tabs comme séparateur
+- début des balises HTML pour constitution du tableau
+=> travail sur le mini-projet compris ; pas mal de temps passé sur l'écriture du script mais pas de difficulté particulière rencontrée
+
+**Partie projet :**
+- choix du mot qui se précise : _devoir_ ; pour les traductions en anglais potentiellement _duty_ et en chinois à déterminer ?
+- intérêt de se concentrer sur un mot polysémique dans une langue mais pas forcément dans les autres : résultats différents
