@@ -1,0 +1,8 @@
+
+1	200	https://fr.wikipedia.org/wiki/Robot	UTF-8
+2	200	https://fr.wikipedia.org/wiki/Robot_de_cuisine	UTF-8
+3	301	fr.wikipedia.org/wiki/Robot_d%27indexation	UTF-8
+3	200	https://fr.wikipedia.org/wiki/Robot_d%27indexation	UTF-8
+4	200	https://fr.wikipedia.org/wiki/Bot_informatique	UTF-8
+5	404	https://fr.wikipedia.org/wiki/Robot_(Leonard_de_Vinci)	UTF-8
+6	502	https://roboty.magistry.fr	
