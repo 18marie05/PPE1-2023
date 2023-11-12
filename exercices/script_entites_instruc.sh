@@ -4,7 +4,7 @@
 ENTITE=$1 #type d'entité recherchée à saisir dans terminal après appel du fichier
 NB_ENTITES=$(cat ../../../arbo/Fichiers/ann/2016/*/*.ann | grep $ENTITE | wc)
 
-if [ -n : "$1"]
+if [ -n : "$1" ]
     then
         echo "une variable a bien été saisie"
         if [$NB_ENTITES]
