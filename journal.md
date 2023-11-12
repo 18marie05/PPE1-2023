@@ -116,3 +116,11 @@ echo "fin du programme"
 **Partie projet :**
 - choix du mot qui se précise : _devoir_ ; pour les traductions en anglais potentiellement _duty_ et en chinois à déterminer ?
 - intérêt de se concentrer sur un mot polysémique dans une langue mais pas forcément dans les autres : résultats différents
+
+## Séance du 8 novembre
+- correction du miniprojet
+- récupération des charset : on peut utiliser une expression régulière où "=" sera le séparateur, de la même manière qu'on utiliserait \t ou , (on peut aussi utiliser \K pour indiquer où commence le match de l'expression régulière
+- puis on récupère la colonne qui nous intéresse (ici -f2 pour prendre tout ce qui se trouve après _charset =_)
+- utilisation de /dev/null = fichier _poubelle_ -> rien ne se crée
+
+Correction comprise et permet d'améliorer mon script pour le rendre + clair
