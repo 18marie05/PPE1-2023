@@ -13,14 +13,30 @@ fi
 #echo -e "numero d'url\tcode HTTP\turl\tencodage"
 #donne le titre des colonnes mais mis en commentaire car peut-être pas utile pour fichier propre
 
-echo "<table><tr><th>Numéro url</th><th>Code HTTP</th><th>URL</th><th>Encodage</th></tr>"
+echo "<html>
+    <head>
+        <meta charset=\"UTF-8\">
+    </head>
+    <body>"
+echo "<table>
+    <tr>
+    <th>Numéro url</th>
+    <th>Code HTTP</th>
+    <th>URL</th>
+    <th>Encodage</th>
+    </tr>"
 
 while read -r line;
 do
     encodage=$(curl -s -I -L ${line} | grep -o "charset=.*" | grep -o "[A-Z].*")
     N=$(expr $N + 1)
     HTTP=$(curl -s -I -w '%{http_code}\n' ${line} | grep ^[0-9] | grep [^000])
-    echo -e "<html><table><tr><td>$N</td><td>$HTTP</td><td>${line}</td><td>$encodage</td></tr></table></html>";
+    echo -e "<tr>
+            <td>$N</td>
+            <td>$HTTP</td>
+            <td>${line}</td>
+            <td>$encodage</td>
+            </tr>"
 
 
     if [[ $HTTP =~ 301|302 ]]
@@ -30,11 +46,18 @@ do
             redirection_url=$(curl -s -w '%{redirect_url}' ${line})
             HTTP2=$(curl -s -I -w '%{http_code}\n' ${redirection_url} | sort -nr | head -n 1)
 
-            echo -e "<html><table><tr><td>$N</td><td>$HTTP2</td><td>$redirection_url</td><td>$encodage</td></tr></table></html>";
+            echo -e "<tr>
+                    <td>$N</td>
+                    <td>$HTTP2</td>
+                    <td>$redirection_url</td>
+                    <td>$encodage</td>
+                    </tr>"
             #correction des liens qui commencent par 301 et 302 pour suivre les redirections et afficher le code 200 + l'url de redirection
 
         else
             continue
     fi
 done < $1
-echo "</table>"
+echo "  </table>
+    </body>
+</html>"

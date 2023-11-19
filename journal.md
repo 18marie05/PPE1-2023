@@ -124,3 +124,14 @@ echo "fin du programme"
 - utilisation de /dev/null = fichier _poubelle_ -> rien ne se crée
 
 Correction comprise et permet d'améliorer mon script pour le rendre + clair
+
+## Séance du 22 novembre
+- correction de la partie html du miniprojet
+- correction des exercices sur l'analyse de texte
+    - pourquoi remplacer tous les caractères maj en min (utiliser la commande tr) : important pour compter dans les étapes suivantes, sinon certains mots ne seront pas reconnus
+    - on remplace manuellement les caractères du type É À Ï... en min
+    - CORRECTION car pas réussi pour exercice d'analyse de texte : pour supprimer la 1ere ligne d'un fichier : utiliser commande tail -n+1
+- création du dépôt pour html
+- Bulma pour finir le miniprojet et avoir une belle présentation en html
+    - prise en main longue et un peu compliquée
+    - comment rendre le tableau accessible hors de ma machine ??
