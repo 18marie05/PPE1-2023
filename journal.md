@@ -125,7 +125,7 @@ echo "fin du programme"
 
 Correction comprise et permet d'améliorer mon script pour le rendre + clair
 
-## Séance du 22 novembre
+## Séance du 15 novembre
 - correction de la partie html du miniprojet
 - correction des exercices sur l'analyse de texte
     - pourquoi remplacer tous les caractères maj en min (utiliser la commande tr) : important pour compter dans les étapes suivantes, sinon certains mots ne seront pas reconnus
@@ -135,3 +135,11 @@ Correction comprise et permet d'améliorer mon script pour le rendre + clair
 - Bulma pour finir le miniprojet et avoir une belle présentation en html
     - prise en main longue et un peu compliquée
     - comment rendre le tableau accessible hors de ma machine ??
+
+## Séance du 22 novembre
+- mot du projet _devoir_ et _duty_ pour l'anglais
+- on prend aussi les pluriels (duty et duties)
+- travail à la maison en groupe pour finir les exercices
+- scripts complétés mais difficultés avec le chinois pour les curl et lynx
+- reprise du début du script de la correction du miniprojet pour rajouter les colonnes manquantes demandées dans l'exercice
+- pas de difficulté particulière pour écriture du script ni pour générer les fichier
