@@ -143,3 +143,15 @@ Correction comprise et permet d'améliorer mon script pour le rendre + clair
 - scripts complétés mais difficultés avec le chinois pour les curl et lynx
 - reprise du début du script de la correction du miniprojet pour rajouter les colonnes manquantes demandées dans l'exercice
 - pas de difficulté particulière pour écriture du script ni pour générer les fichier
+
+## Séance du 28 novembre + devoirs
+- correction du script pendant le cours
+- quelques modifications apportées à notre script de groupe
+- problèmes sur le chinois réglé au niveau du script
+Au niveau des devoirs:
+- script retravaillé pour avoir le concordancier
+- difficultés dans la réalisation du script pour envoyer les tableaux dans le dossier concordancier (réglé : il suffisait de faire plusieurs redirections dans le script pour éviter les conflits de html)
+- problèmes au niveau du grep/sed : pour grep on peut utiliser l'option -i pour la casse, mais ne fonctionne pas avec sed -> essai de faire une expression régulière plus complexe mais pas forcément reconnue : il faudrait faire une expression du type (([dD]ut(y|ies))|(DUT(Y|IES)) sinon pour sortie du concordancier, certaines lignes sont affichées au dessus du tableau car elles ne peuvent pas être prises en compte (peut-être tester avec \6 au lieu de \4 pour éviter la lecture du mauvais groupe de parenthèses)
+Partie iTrameur :
+- 1 script pour les 3 langues car on récupère les fichiers de chaque langue à l'aide d'un argument qu'on donne lorsqu'on lance le script
+- ajout des balises au fur et à mesure (d'abord créer un fichier avec > puis on utilise >> comme dans le script des concordanciers pour ne pas écraser ce qui se trouve déjà dans les fichiers)
